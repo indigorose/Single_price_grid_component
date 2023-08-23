@@ -93,6 +93,21 @@ h1 {
 	color: var(--main-3);
 }
 
+span {
+	font-size: 3rem;
+}
+
+.btn {
+	background-color: var(--main-2);
+	color: var(--text-1);
+	width: 100%;
+	padding: 1em;
+	border: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-size: 1.1rem;
+}
+
 .card-2,
 .card-3 > h1 {
 	color: var(--main-3);
@@ -107,4 +122,14 @@ h1 {
 	line-height: 1.5;
 	padding: 0;
 	color: var(--main-4);
+}
+
+@media (min-width: 705px) {
+	.container {
+		max-width: 650px;
+	}
+	.container-2 {
+		flex-direction: row;
+		width: 100%;
+	}
 }
